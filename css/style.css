@@ -225,28 +225,36 @@ h2{
                     }
 
         .rettangolo-grande{
+            text-align: center;
             background-color: #d3d3d3;
             /* TEST */
-            height: 400px;
+            /* height: 400px; */
             display: flex;
             align-items: center;
         }
             
         .section-container.rettangolo{
-            background-color: #228b22;
-            border: 1px dotted red;
-            width: 40%;
-            margin: auto;
+            text-align: center;
+            width: 50%;
             display: flex;
             }
 
             .grande{
-                width: 60%;
+                text-align: center;
+                width: 100%;
                 align-items: center;
                 /* TEST */
                 height: 350px;
-
             }
+
+   .grande p{
+       width: 87%;
+       margin: auto;
+   }
+
+   .grande img{
+       width: 400px;
+   }
 
      /* FOOTER  */
 
