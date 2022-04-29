@@ -8,6 +8,14 @@
 
 /* COMMON  */
 
+button.small{
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 40px;
+    color: black;
+   background-color: white;
+   border-bottom-style: none;
+}
 
 /* Header */
 header {
