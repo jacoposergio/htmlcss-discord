@@ -41,6 +41,12 @@ a {
     background-color: black;
 }
 
+.big.centro{
+    color: white;
+    background-color:#7289da ;
+}
+
+
 section img{
     width: 50px;
 }
@@ -50,6 +56,11 @@ h2{
     margin-bottom: 10px;
 }
 
+h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+}
 .colonna p{
     font-size: 15px;
 }
@@ -244,7 +255,7 @@ h2{
                 width: 100%;
                 align-items: center;
                 /* TEST */
-                height: 350px;
+                /* height: 350px; */
             }
 
    .grande p{
@@ -253,7 +264,25 @@ h2{
    }
 
    .grande img{
-       width: 400px;
+       width: 500px;
+   }
+    
+
+   .big.centro{
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 20x;
+       display: block;
+       
+   }
+
+   .stelline-container{
+       padding: 20px 0;
+    height: 150px;
+       background-image: url(../img/stars.svg);
+       background-size: contain;
+       display: block;
+       
    }
 
      /* FOOTER  */
