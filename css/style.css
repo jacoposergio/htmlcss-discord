@@ -12,13 +12,24 @@ a {
     color: white;   
     }
 
-button.small{
+.small{
     font-size: 12px;
     padding: 5px 12px;
     border-radius: 40px;
     color: black;
    background-color: white;
    border-bottom-style: none;
+}
+
+.big{
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 40px;
+    color: black;
+   background-color: white;
+   border-bottom-style: none;
+   outline: none;
+
 }
 
 /* Header */
@@ -101,9 +112,10 @@ button.small{
          .section-container.jumbo{
             background-color: #ee82ee;
             border: 1px dotted black;
-            width: 35%;
+            width: 40%;
             margin: auto;
-            display: flex;
+            display: block;
+            text-align: center;
             }
 
             .section-container{
@@ -120,6 +132,21 @@ button.small{
                 height: 200px;
 
             }
+            
+             h1{
+                 color: white;
+               margin-bottom: 20px;
+            }
+
+            .section-container.jumbo p{
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            .btn{
+
+            }
+
 
             .colonna.azzurra{
                 width: 60%;
