@@ -3,10 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 /* COMMON  */
+
+a {
+    text-decoration: none;
+    color: white;   
+    }
 
 button.small{
     font-size: 12px;
@@ -18,8 +22,13 @@ button.small{
 }
 
 /* Header */
-header {
-    background-color: #add8e6;
+    header{
+        background-image: url(../img/jumbo.png);
+        background-size: cover ;
+    }
+
+.top-header {
+    width: auto;
     display: flex;
     align-items: center;
     /* TEST */
@@ -28,22 +37,20 @@ header {
 
   .header-menu{
       color: white;
-      background-color: #daa520;
       width: 80%;
       margin: auto;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
 
        
   }
   
             .logo{
                 display: flex;
-                border: 1px dotted black;
-                width: 20%;
+                
                 text-align: middle;
-                padding: 0 10px;
+               
             }
                
                .logo img{
@@ -54,34 +61,28 @@ header {
             .link-container{
                 display: flex;
                 justify-content: center;
-                border: 1px dotted black;
                 width: 60%;
                 text-align: center;
                 padding: 0 5px;
 
             }
 
-            .link{
-                font-size: 12px;
-                display: flex;
-                justify-content: space-between;
-                border: 1px dotted black;
-                width: 60%;
-                text-align: center;
-                padding: 0 5px;
+                .link{
+                    color: white;
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 60%;
+                    text-align: center;
+                    padding: 0 5px;
 
-            }
+                }
 
             .login{
-                border: 1px dotted black;
-                width: 20%;
-                text-align: end;
-                padding: 0 5px;
-
+                text-align: center;
             }
 
             .jumbo-section{
-                background-color: #00008b;
                 /* TEST */
                 height: 250px;
                 display: flex;
