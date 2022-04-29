@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+/* COMMON  */
 
 
 /* Header */
@@ -18,22 +21,28 @@ header {
   .header-menu{
       color: white;
       background-color: #daa520;
-      width: 70%;
+      width: 80%;
       margin: auto;
       display: flex;
       align-items: center;
+      justify-content: center;
 
        
   }
   
             .logo{
+                display: flex;
                 border: 1px dotted black;
                 width: 20%;
-                text-align: start;
+                text-align: middle;
                 padding: 0 10px;
-
-
             }
+               
+               .logo img{
+                  height: 30px;
+                   padding: ;
+               }
+
             .link-container{
                 display: flex;
                 justify-content: center;
@@ -45,6 +54,7 @@ header {
             }
 
             .link{
+                font-size: 12px;
                 display: flex;
                 justify-content: space-between;
                 border: 1px dotted black;
