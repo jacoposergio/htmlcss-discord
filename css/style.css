@@ -13,6 +13,20 @@ a {
     color: white;   
     }
 
+    a h3{
+        font-size: 15px;
+        color: #7289da;   
+    }
+
+    ul {
+        list-style-type: none;
+        }
+        
+        li{
+            font-size: 13px;
+            margin-top: 7px;
+        }
+
 .small{
     font-size: 12px;
     padding: 5px 12px;
@@ -20,6 +34,11 @@ a {
     color: black;
     background-color: white;
     border-bottom-style: none;
+    }
+
+    .small.registrati{
+        color: white;
+        background-color:#7289da ;
     }
 
 .big{
@@ -205,18 +224,18 @@ h3{
 
             .colonna.fucsia{
                 width: calc(100% /3);
-                background-color: #f08080;
-                /* TEST  */
-                height: 270px;
-                border: 1px dotted black;
+               
+                /* TEST 
+                height: 270px; */
+              
             }
 
             .colonna.verde{
                 width: calc(100% /6);
-                background-color: #20b2aa;
+              
                 /* TEST  */
-                height: 270px;
-                border: 1px dotted black;
+                /* height: 270px; */
+              
             }
 
             .section-container.due{
@@ -288,38 +307,23 @@ h3{
      /* FOOTER  */
 
      footer {
+         width: auto;
         background-color: #23272a;
         border-top: 1px solid white;
-        border-bottom: 1px solid white;
-        display: flex;
-        align-content: flex-end;
         /* TEST */
         height: 40px;
     }
 
      .footer-menu{
-        color: white;
-        background-color: #7fffd4;
-        width: 40%;
-        margin: auto;
+          margin: auto;
+         width: 80%;
         display: flex;
-        justify-content: space-between;
         /* TEST  */
          height: 30px;
+         display: flex;
+         justify-content: space-between;
     }
     
-    .logo-footer{
-        color: black;
-        border: 1px dotted black;
-        text-align: center;
-        margin: 5px 0;
-        padding: 0px 3px;
-    }
-
-    .bottone{
-        color: black;
-        border: 1px dotted black;
-        text-align: center;
-        margin: 5px 0;
-        padding: 0px 3px;
-    }
+ .footer-container{
+    padding-top: 10px;
+ }
